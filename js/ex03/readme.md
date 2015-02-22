@@ -74,7 +74,7 @@ Ensuite on déclare une liste contenant des couleurs comme celle ci par exemple:
     var couleurs = ['#F2C249', '#E6772E', '#4DB3B3', '#E64A45', '#3D4C53', '#FFFFFF'];
 
 ```
-Il nous faut aussi une variable qui va garder l'index de la couleur actuelement utilisée. Elle sera initialisée à 0 et augmentée de 1 à chaque clic.
+Il nous faut aussi une variable qui va garder l'index de la couleur actuellement utilisée. Elle sera initialisée à 0 et augmentée de 1 à chaque clic.
 
 On déclare une fonction qui sera executée à chaque clic. Cette fonction augmentera d'abord l'index de la couleur actuelle (passant ainsi à la couleur suivante). puis changera la couleur de fond de l'élément body.
 
@@ -94,7 +94,7 @@ index ==> 1 ==> #E6772E
           ...
 ```
 
-Attention, il faut aussi que lorsque l'on arrive à la fin de la liste on recommence au début. Pour cela, il faut vérifier après avoir augmenté l'index que celui-ci soit bien inférieur à la taille de la liste. Si il est supérieur ou bien égal, on le repassra alors à 0
+Attention, il faut aussi que lorsque l'on arrive à la fin de la liste on recommence au début. Pour cela, il faut vérifier après avoir augmenté l'index que celui-ci soit bien inférieur à la taille de la liste. Si il est supérieur ou bien égal, on le repassera alors à 0
 
 Lorsque je clique, si on est au bout de la liste
 
@@ -121,4 +121,4 @@ Pour avoir un bel effet de transition, ajouter ceci au css du body:
 ```css
     -webkit-transition: background-color linear 300ms;
     transition: background-color linear 300ms;
-``
+```
