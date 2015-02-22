@@ -5,7 +5,7 @@ Le but de l'exercice va être de créer une page web racontant l'histoire d'un f
 
 Résultat attendu:
 
-
+![](https://raw.githubusercontent.com/paulvarache/cours/master/js/ex01/demo01.gif)
 
 
 ###Connaissances nécessaires
