@@ -68,3 +68,14 @@ Pour détecter le clic sur un bouton (ou n'importe quel élément HTML), il suff
     // Affectation de la fonction au clic du bouton
     bouton.onclick = clic;       // Ici on donne le nom de la fonction
 ```
+
+##Fonctionnement
+
+Tout d'abord on récupère les élément dont on va avoir besoin
+- Le bouton "Afficher"
+- Le bouton "Masquer"
+- L'élément contenant le texte caché
+
+Puis on créée deux fonctions. L'une pour afficher l'autre pour masquer. Ces fonctions modifieront la valeur de la propriété CSS `display`de l'élément contenant le texte cacher pour l'afficher/masquer.
+
+Finalement on associe chacune de ces fonctions au bouton qui correspond.
